@@ -1,4 +1,8 @@
 ## About Colorbox:
+
+_This is the normal version of colorbox, but with a patch for `minWidth` and `minHeight`._
+
+
 A customizable lightbox plugin for jQuery.  See the [project page](http://jacklmoore.com/colorbox/) for documentation and a demonstration, and the [FAQ](http://jacklmoore.com/colorbox/faq/) for solutions and examples to common issues.  Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 ## Changelog:
@@ -552,7 +556,7 @@ Files Changed: jquery.colorbox.js, jquery.colorbox-min.js
 
 ##### Version 1.1.5 - April 11 2009
 * Fixed minor issues with exiting Colorbox.
- 
+
 ##### Version 1.1.4 - April 08 2009
 * Fixed a bug in the fade transition where Colorbox not close completely if instructed to close during the fade-in portion of the transition.
 
@@ -580,7 +584,7 @@ Files Changed: jquery.colorbox.js, jquery.colorbox-min.js
 * Added support for % sizing.
 * Callback option added.
 * Inline content now preserves JavaScript events, and changes made while Colorbox is open are also preserved.
-* Added 'href' setting to add the ability to set an alternative href for any anchor, or to assign the Colorbox event to non-anchors. 
+* Added 'href' setting to add the ability to set an alternative href for any anchor, or to assign the Colorbox event to non-anchors.
   Example: $('button').colorbox({'href':'process.php'})
   Example: $('a[href='http://msn.com']).colorbox({'href':'http://google.com', iframe:true});
 * Photos are now horizontally centered if they are smaller than the lightbox size.  Also vertically centered for browsers newer than IE7.
